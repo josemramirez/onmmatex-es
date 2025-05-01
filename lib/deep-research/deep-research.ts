@@ -61,7 +61,7 @@ async function logProgress(
 // take en user query, return a list of SERP queries
 async function generateSerpQueries({
   query,
-  numQueries = 0,
+  numQueries = 3,
   learnings,
   onProgress,
   model,
@@ -114,8 +114,8 @@ async function generateSerpQueries({
 async function processSerpResult({
   query,
   result,
-  numLearnings = 0,
-  numFollowUpQuestions = 0,
+  numLearnings = 3,
+  numFollowUpQuestions = 3,
   onProgress,
   model,
 }: {
@@ -230,9 +230,6 @@ export async function writeFinalReport({
     },
   };
 
-
-  // Prepend a primary markdown heading to make sure the UI renders it as markdown
-  //return `${res.object.reportMarkdown}`;
 }
 
 export async function deepResearch({
