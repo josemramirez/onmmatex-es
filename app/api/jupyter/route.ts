@@ -3,9 +3,7 @@ import { NextResponse } from "next/server";
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    //const response = await fetch("https://wolfram-engine-alone-production.up.railway.app/execute", {
-    // Con FLY siii
-    const response = await fetch("https://wolfram-alone-v1.fly.dev/execute", {
+    const response = await fetch("https://tu_wolfram/execute", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
