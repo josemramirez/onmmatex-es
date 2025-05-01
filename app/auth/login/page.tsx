@@ -36,7 +36,7 @@ const LoginForm = async () => {
           {/* Mostrar iframe si active users (metrics[3]) es mayor a 3 */}
           {Number(metrics[2].value) > 100 ? (
             <iframe
-              src="https://waitfast.netlify.app/embed/waitlist/ac7f7828-7c31-4baa-a768-f5e769bad93e?theme=light&size=md"
+              src="https://waitfast.netlify.app/embed/waitlist/tu_wait_list?theme=light&size=md"
               style={{ border: 'none', width: '100%', height: '500px' }}
               title="[on]MMaTeX Waitlist"
             ></iframe>
