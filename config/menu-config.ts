@@ -22,7 +22,6 @@ export const adminSidebarLinks = [{
  {
   label: "Jupyter",
   icon: SquareTerminal,
-  //url: "https://notebook.mmatex.com/login?next=%2Flab&token=process.env.JUPYTER_TOKEN"
   url: "/dashboard/notebook"
 },
 {
@@ -52,7 +51,6 @@ export const userSidebarLinks = [{
 },{
   label: "Jupyter",
   icon: SquareTerminal,
-  //url: "https://notebook.mmatex.com/login?next=%2Flab&token=process.env.JUPYTER_TOKEN"
   url: "/dashboard/notebook"
 },
  {
