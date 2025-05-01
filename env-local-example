@@ -1,0 +1,36 @@
+# APP
+HOME_URL=http://localhost:3000
+
+AUTH_SECRET="tu_nuevo_secret=" # Added by `npx auth`. Read more: https://cli.authjs.dev
+
+## for Dev
+AUTH_GITHUB_ID=tu_secret_Git
+AUTH_GITHUB_SECRET=tu_secret_Git
+WOLFRAM_API_KEY=tu_wolfram_api
+MMATEX_GITS_REPO=tu_repo
+MMATEX_GITS_OWNER=tu_github
+MMATEX_GITS_REPO_v1=tu_repo_para_docs_grandes
+MMATEX_GITS_TOKEN=tu_github_token
+JUPYTER_TOKEN=tu_jupyter_yoken
+
+
+# Supabase
+DATABASE_URL=tu_base_de_datos
+
+#### AI API KEYS
+OPENAI_API_KEY=tu_openai_key
+FIRECRAWL_KEY=tu_key
+NEXT_PUBLIC_ENABLE_API_KEYS=false
+NEXT_PUBLIC_ENABLE_GITHUB_LOGIN=false
+
+# RESEND
+AUTH_RESEND_KEY="tu_re_send_key"
+
+# ADMIN
+ADMIN_EMAIL=your_admin_email@domain.com
+
+# STRIPE
+STRIPE_API_KEY=tu_stripe_key
+PRICE_ID_ACADEMIC=tu_price1
+PRICE_ID_RESEARCH_PRO=tu_price2
+STRIPE_WEBHOOK_SECRET=tu_webhook
