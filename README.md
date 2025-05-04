@@ -117,4 +117,4 @@ Open an issue on the GitHub repository.
 
 Email us at [mmatex@resend.dev](mailto:mmatex@resend.dev).
 
-Join our Discord community for support and discussions.
+Join our X community for support and discussions.
