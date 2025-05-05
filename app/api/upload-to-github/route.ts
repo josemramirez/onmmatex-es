@@ -119,7 +119,7 @@ async function getSourceFiles({
 }) {
   try {
     const response = await fetch(
-      `https://api.github.com/repos/josemramirez/mmatex/contents/${path}`,
+      `https://api.github.com/repos/${owner}/mmatex/contents/${path}`,
       {
         method: "GET",
         headers: {
@@ -154,7 +154,7 @@ async function copyFilesToBkgs({
   authToken: string;
 }) {
   const sourceFiles = await getSourceFiles({
-    owner: "josemramirez",
+    owner: ${owner},
     repo: "mmatex",
     path: "pdf_examples/bkgs",
     authToken,
